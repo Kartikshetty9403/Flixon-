@@ -47,6 +47,8 @@ npm run dev
 
 #ScreenShots
 
+screenshots/Flixon_hero.png
+
 🚀 Future Improvements
 
 Movie details page
