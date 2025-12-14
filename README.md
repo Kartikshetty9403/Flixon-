@@ -47,6 +47,8 @@ npm run dev
 
 #ScreenShots
 
+![image alt](https://github.com/Kartikshetty9403/Flixon-/blob/f2216f85f570757fcca82249ef0a8eccfec11c8e/screenshots/Flixon_content.png)
+
 
 🚀 Future Improvements
 
