@@ -43,28 +43,6 @@ VITE_APPWRITE_DATABASE_ID=your_database_id
 npm install
 npm run dev
 
-## 📸 Screenshots
-
-VITE_TMDB_API_KEY=your_tmdb_api_key
-VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
-VITE_APPWRITE_DATABASE_ID=your_database_id
-
-▶️ How to Run Locally
-npm install
-npm run dev
-
-## 📸 Screenshots
-
-### Home Page
-![Home Page](./screenshots/Flixon_hero.png)
-
-### Movie Content
-![Movie Content](./screenshots/Flixon_content.png)
-
-### Trending Movies
-![Trending Movies](./screenshots/Flixon_trending.png)
-
-
 🚀 Future Improvements
 
 Movie details page
