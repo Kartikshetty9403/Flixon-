@@ -47,11 +47,12 @@ npm run dev
 
 📸 Screenshots:
 Hero:
+![Hero](https://github.com/Kartikshetty9403/Flixon-/blob/dc7528deafef8fcd7289634f8955db2ec2442582/screenshots/Flixon_hero.png)
 
 Trending:
 
 contents: 
-![image alt](https://github.com/Kartikshetty9403/Flixon-/blob/f2216f85f570757fcca82249ef0a8eccfec11c8e/screenshots/Flixon_content.png)
+![contents](https://github.com/Kartikshetty9403/Flixon-/blob/f2216f85f570757fcca82249ef0a8eccfec11c8e/screenshots/Flixon_content.png)
 
 
 🚀 Future Improvements
