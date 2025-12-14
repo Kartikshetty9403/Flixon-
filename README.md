@@ -1,16 +1,67 @@
-# React + Vite
+# Flixon 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Flixon is a **movie web application** built using **React + Vite**.  
+It allows users to explore trending movies, search for movies with debounce functionality, and dynamically ranks trending movies based on search popularity.
 
-Currently, two official plugins are available:
+> 🚧 Currently a **frontend-only** project. Clicking on a movie card does not show movie details yet.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔥 Trending movies section
+- 🎞️ Movie cards with:
+  - Rating
+  - Language
+  - Release date
+- 🔍 Search bar with **debounce functionality**
+- 📈 Trending movies ranked from **1–10** based on search count
+- ⚡ Fast performance with Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React**
+- **Vite**
+- **TMDB API** – Fetch movie data
+- **Appwrite** – Manage trending movies using search count
+- **CSS / Tailwind** (if used)
+
+---
+
+## 🔐 Environment Variables
+
+Create a '.env.local' file in the root directory:
+
+```env
+VITE_TMDB_API_KEY=your_tmdb_api_key
+VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
+VITE_APPWRITE_DATABASE_ID=your_database_id
+
+▶️ How to Run Locally
+npm install
+npm run dev
+
+## 📸 Screenshots
+
+### Home Page
+![Home Page](./screenshots/Flixon_hero.png)
+
+### Movie Content
+![Movie Content](./screenshots/Flixon_content.png)
+
+### Trending Movies
+![Trending Movies](./screenshots/Flixon_trending.png)
+
+
+
+🚀 Future Improvements
+
+Movie details page
+
+User authentication
+
+Watchlist feature
+
+Improved trending algorithm
