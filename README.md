@@ -26,7 +26,7 @@ It allows users to explore trending movies, search for movies with debounce func
 - **Vite**
 - **TMDB API** – Fetch movie data
 - **Appwrite** – Manage trending movies using search count
-- **CSS / Tailwind** (if used)
+- **Tailwind
 
 ---
 
