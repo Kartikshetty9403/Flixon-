@@ -43,8 +43,9 @@ VITE_APPWRITE_DATABASE_ID=your_database_id
 npm install
 npm run dev
 
----
+```
 
+#ScreenShots
 
 🚀 Future Improvements
 
