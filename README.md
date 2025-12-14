@@ -46,18 +46,6 @@ npm run dev
 ---
 
 
-## Screenshots
-
-### Hero Section
-![Flixon Hero](screenshots/Flixon_hero.png)
-
-### Trending Section
-![Flixon Trending](screenshots/Flixon_trending.png)
-
-### Content Section
-![Flixon Content](screenshots/Flixon_content.png)
-
-
 🚀 Future Improvements
 
 Movie details page
