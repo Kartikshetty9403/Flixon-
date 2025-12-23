@@ -1,6 +1,6 @@
 import { Client, Databases, ID, Query } from "appwrite";
 
-/* ENV VARIABLES (same as video) */
+/* ENV VARIABLES */
 const PROJECT_ID = import.meta.env.VITE_APPWRITE_PROJECT_ID;
 const DATABASE_ID = import.meta.env.VITE_APPWRITE_DATABASE_ID;
 const TABLE_ID = import.meta.env.VITE_APPWRITE_METRICS_TABLE_ID;
@@ -12,10 +12,10 @@ const client = new Client()
 
 const databases = new Databases(client);
 
-/* Ping Appwrite (same as instructions) */
+/* Ping Appwrite  */
 client.ping();
 
-/* SAME AS VIDEO: just logging for now */
+/* just logging for now */
 export const updateSearchCount = async (searchTerm, movie) => {
   //1. use Appwrite SDK to check if the search term exists in the databse
   try {
